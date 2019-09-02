@@ -18,7 +18,6 @@ const TextScreen = () => {
         {password.length < 4 ? <Text>Password is too short</Text> : null }
     </View>
 }
-
 const styles = StyleSheet.create({
     input: {
         margin: 15,
